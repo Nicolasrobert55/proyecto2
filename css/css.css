@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(68, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+/*preparacion de la barra de navegacion*/
+}
+nav{
+    background-color: black;
+}
+
+nav ul{    
+    list-style:none ;    
+    padding: 0%;
+    margin: 0%;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a{           
+    color:chocolate;
+    display: block;
+    padding: 20px 60px;       
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: cornflowerblue;
+
+}
+/*titulo principal*/
+.titulo{
+    display: flex;
+    justify-content: center;
+        
+}
+.titulo{
+    color:darkblue;
+}
+.titulo{
+    transform: translateX(100px);
+    
+}
+
+.primerp{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* segundo parrafo con subtitulo incluido*/
+
+.subtitulo{
+    display: flex;
+    justify-content:center; 
+    color: cadetblue;
+}
+.imagen1{
+    transform: translateX(10px) rotate(10deg) translateY(5px)
+}
+.segundop{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*tercer parrafo */
+
+.tercersubtitulo{
+    display: flex;
+    justify-content: center;
+    color:darkgray;
+}
+.imagen2{
+    transition-delay:1s;
+}
+.imagen2:hover{
+    transform: scale(2);
+ }
+.tercerp{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}    
+
+/*cuarto parrafo*/
+.ultimosubtitulo{
+    display: flex;
+    justify-content: center;
+    color:darkorange;
+}
+.imagen3{
+    transition: all 1s;
+}
+.imagen3:hover{
+    transform: scale(2);
+}
+.cuartop{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*pie de pagina*/
+footer{
+    background-color: black;
+}
+footer ul{    
+    list-style:none ;    
+    padding: 0%;
+    margin: 0%;
+}
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li a{           
+    color:chocolate;
+    display: block;
+    padding: 20px 60px;       
+    text-decoration: none;
+}
+footer ul li a:hover{
+    background-color: cornflowerblue;
+    }
+    
+
+
+
